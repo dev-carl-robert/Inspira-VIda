@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspira Vida</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/reset.css">
+    <link rel="stylesheet" href="./src/responsive.css">
+    <link rel="shortcut icon" href="./src/IMAGES/2.png" type="image/x-icon">
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./src/IMAGES/RT.png" alt="">
+        <a class="texto" href="#">Converse conosco</a>
+        <a class="texto" href="#">Saiba mais</a>
+    </header>
+    <main>
+        <section class="hero">
+            <div>
+
+                <h2 class="texto" id="texto">
+                    <span class="aspas">“</span>A felicidade pode ser encontrada mesmo nas horas mais difíceis, se você
+                    se
+                    lembrar de acender a luz<span class="aspas">”</span><br>
+                    <span class="Alvo">Alvo Dumbledore</span>
+                </h2>
+            </div>
+            <div class="hero-image">
+                <div class="container">
+                    <img id="lampada" src="./src/IMAGES/1.png" alt="Lâmpada">
+                    <button id="botaoLampada" class="button" onclick="alternarLampada()">OFF</button>
+                </div>
+            </div>
+        </section>
+        <section class="msgDiaria">
+            <h2>Mensagem do Dia</h2>
+            <p id="mensagem"></p>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
