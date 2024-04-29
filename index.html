@@ -7,9 +7,9 @@
     <title>Inspira Vida</title>
 
     <!-- Estilos -->
-    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/style.css" preload>
     <link rel="stylesheet" href="./src/reset.css">
-    <link rel="stylesheet" href="./src/responsive.css">
+    <link rel="stylesheet" href="./src/responsive.css" preload> 
     <link rel="shortcut icon" href="./src/IMAGES/2.png" type="image/x-icon">
     <!-- fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,19 +27,18 @@
     </header>
     <main>
         <section class="hero">
-            <div>
-
+            <div class="hero-texto">
                 <h2 class="texto" id="texto">
                     <span class="aspas">“</span>A felicidade pode ser encontrada mesmo nas horas mais difíceis, se você
                     se
-                    lembrar de acender a luz<span class="aspas">”</span><br>
+                    lembrar de acender a luz.<span class="aspas">”</span><br>
                     <span class="Alvo">Alvo Dumbledore</span>
                 </h2>
             </div>
             <div class="hero-image">
                 <div class="container">
                     <img id="lampada" src="./src/IMAGES/1.png" alt="Lâmpada">
-                    <button id="botaoLampada" class="button" onclick="alternarLampada()">OFF</button>
+                    <button id="botaoLampada" class="button" onclick="alternarLampada()">Acenda a sua Luz</button>
                 </div>
             </div>
         </section>

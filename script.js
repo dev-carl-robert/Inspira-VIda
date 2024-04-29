@@ -5,13 +5,15 @@ function alternarLampada() {
 
     if (lampada.src.match("1.png")) {
         lampada.src = "./src/IMAGES/2.png";
-        botaoLampada.innerText = "ON";
-        texto.style.color = "#CD7866"; // Altera a cor do texto para amarelo quando a lâmpada está acesa
-        
+        botaoLampada.innerText = "Desligar a luz";
+        texto.style.color = "#f7f7f7"; // Altera a cor do texto para amarelo quando a lâmpada está acesa
+        lampada.style.filter = "drop-shadow(0px 5px 10px rgb(255, 222, 89))";        
     } else {
         lampada.src = "./src/IMAGES/1.png";
-        botaoLampada.innerText = "OFF";
+        botaoLampada.innerText = "Acenda a sua luz";
         texto.style.color = "#171717"; // Retorna a cor do texto para preto quando a lâmpada está apagada
+        lampada.style.filter = "drop-shadow(0px 5px 10px #000000)";
+
     }
 }
 

@@ -1,0 +1,64 @@
+@media (width <=576px) {
+    body {
+        height: 10vh;
+        width: 100vw;
+        margin: auto 0;
+    }
+    header a{
+        display: none;
+    }
+    header .logo{
+        height: 20rem;
+        width: 20rem;
+    }
+    main {
+        margin-top: 2rem;
+        width: 100vw;
+    }
+    .hero{
+        flex-direction: column;
+        position: relative;
+    }
+    .hero-texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+    }
+    .hero-image {
+        margin-left: 0px;
+    }
+    #lampada {    
+        opacity: .8;
+        margin-left: 0px;
+        text-align: center;
+        top: 0;
+        z-index: -1;
+        position: absolute;
+    }
+    .button {
+        margin-top: 5rem;
+    }
+    .hero h2 {
+        width: 95vw;
+        text-align: center;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 14rem;
+    }
+    .msgDiaria {
+        width: 100vw;
+    }
+    .msgDiaria h2 {
+        font-size: 6rem;
+        width: 80vw;
+    }
+    .msgDiaria p {
+        width: 80vw;
+        text-align: center;
+        word-break: normal;
+        margin: 3rem auto;
+    }
+}
